@@ -1,0 +1,30 @@
+Run make and it should produce an executable called task2. You can then choose to create a bit vector by entering "Create" or load a bit vector from a file by entering "Load". After you enter the first command follow the outputted instructions.
+
+Create example:
+
+./task2
+Create
+$Enter number of bits: 
+16
+$Bitvector is : 0 1 1 1 0 1 1 1 0 0 1 1 0 1 1 1 
+$Enter select: 
+10
+$Select 10 is index 15
+$Time elapsed: 7.2e-05 seconds
+$Overhead of rank data structure: 24 bits
+$Do you want to save? (y/n)
+y
+$Enter filename: 
+f
+
+Load example:
+
+./task2
+Load
+$Enter filename: 
+f
+$Enter select: 
+10
+$Select 10 is 15
+$Time elapsed: 0.000137 seconds
+$Overhead of rank data structure: 24 bits

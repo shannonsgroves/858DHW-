@@ -1,0 +1,47 @@
+Run make and it should produce an executable called task3. You can then choose to create a sparse array by entering "Create" or load a sparse array from a file by entering "Load". After you enter the first command then you type in the sparse array functions that you want to do, and you will be asked for the relevant parameters if they are needed.
+
+Example:
+
+./task3
+Create
+$Enter number of bits: 
+16
+$Type in functions that you want to do, followed by "end": 
+append
+$Enter element: 
+foo
+$Enter position: 
+2
+$Done
+append
+$Enter element: 
+bar
+$Enter position: 
+5
+$Done
+get_at_rank
+$Enter rank: 
+2
+$True
+get_at_rank
+$Enter rank: 
+3
+$False
+get_at_index
+$Enter rank: 
+5
+$True
+get_at_index 
+$Enter rank: 
+4
+$False
+num_elem
+$2
+size
+$16
+end
+$Do you want to save? (y/n)
+n
+
+
+
